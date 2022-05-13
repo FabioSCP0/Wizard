@@ -26,7 +26,7 @@ public class Wizard extends Application{
 		createStepThree();
 		
 		window.setScene(sceneOne);
-		window.setTitle("Wizard:: passo 1");
+		window.setTitle("Wizard:: Step One");
 		window.show();
 		
 	}
@@ -36,7 +36,7 @@ public class Wizard extends Application{
 		next.getStyleClass().add("button");
 		next.setOnAction(e->{
 			window.setScene(sceneTwo);
-			window.setTitle("Wizard:: Step One");
+			window.setTitle("Wizard:: Step Two");
 		});
 		
 		HBox box = new HBox();
